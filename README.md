@@ -13,7 +13,7 @@
     redis-server
 
 
-
+# Example
 ```javascript
 const WeightedList = require('distributed-weighted-queue');
 const config = {
