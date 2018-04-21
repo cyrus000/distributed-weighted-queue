@@ -1,21 +1,5 @@
-# distributed-weighted-queue
+const WeightedList = require('../lib/distributedWeightedQueueing');
 
-## purpose
-    To have a weighted queue in a distributed mantor
-    You can set shards and each shard can have a different prioity
-
-    Example: weights: [10, 3, 2, 1],
-    First shard with weight of 10 will be 10x more likely to
-    return its item when you request the next item over the last shard
-
-## requirements
-    node >6
-    redis-server
-
-
-
-```javascript
-const WeightedList = require('distributed-weighted-queue');
 const config = {
   redis: {
     host: 'localhost',
@@ -67,4 +51,4 @@ function get(count) {
 setTimeout(() => {
   get(1001);
 }, 2000);
-```
+

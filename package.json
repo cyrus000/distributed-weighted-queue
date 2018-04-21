@@ -1,0 +1,50 @@
+{
+  "name": "distributed-weighted-queue",
+  "version": "1.0.0",
+  "description": "distributed weighted queuing multiple processes",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrus000/distributed-weighted-queue.git"
+  },
+  "engines" : {
+    "node" : ">=6.0"
+  },
+  "keywords": [
+    "distributed",
+    "weighted",
+    "priority",
+    "queue",
+    "redis"
+  ],
+  "author": "Cyrus Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrus000/distributed-weighted-queue/issues"
+  },
+  "homepage": "https://github.com/cyrus000/distributed-weighted-queue#readme",
+  "dependencies": {
+    "events": "2.0.0",
+    "redis": "2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
