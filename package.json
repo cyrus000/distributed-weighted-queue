@@ -1,6 +1,6 @@
 {
   "name": "distributed-weighted-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "distributed weighted queuing multiple processes",
   "main": "index.js",
   "directories": {
@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/cyrus000/distributed-weighted-queue.git"
   },
-  "engines" : {
-    "node" : ">=6.0"
+  "engines": {
+    "node": ">=6.0"
   },
   "keywords": [
     "distributed",
@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/cyrus000/distributed-weighted-queue#readme",
   "dependencies": {
-    "events": "2.0.0",
     "redis": "2.8.0"
   },
   "devDependencies": {
